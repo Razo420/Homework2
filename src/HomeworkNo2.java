@@ -15,32 +15,32 @@ public class HomeworkNo2 {
             System.out.println("Life is beautiful");
         }
 
-
-
-
-        int weekend = 3;
-        switch (weekend){
-            case 1 :
-                System.out.println("Friday");
-            case 2:
-                System.out.println("Saturday");
-            case 3:
-                System.out.println("Sunday");
-                break;
-            default:
-                System.out.println("Don't Worry");
+        
+        char sim1 = 'a';
+        char sim2 = 'b';
+        char sim3 =  'c';
+        if(sim1>sim2){
+            if(sim1>sim3){
+                System.out.println(sim1);
+            } else {
+                System.out.println(sim3);
+            }
+        } else if (sim2 < sim3) {
+            System.out.println(sim3);
+        } else {
+            System.out.println(sim2);
         }
 
-        int redhisHitFromBehind = 1;
-        int blackisHitFromBehind = 1;
+        boolean redhisHitFromBehind = true;
+        boolean blackisHitFromBehind = false;
 
 
-        if (redhisHitFromBehind > blackisHitFromBehind){
-            System.out.println(redhisHitFromBehind);
-        } else if (redhisHitFromBehind < blackisHitFromBehind){
-
+        if (redhisHitFromBehind && !blackisHitFromBehind){
+            System.out.println("black");
+        } else if (!redhisHitFromBehind && blackisHitFromBehind){
+            System.out.println("red");
     }
-        else if (redhisHitFromBehind == blackisHitFromBehind){
+        else{
             System.out.println("Invalid state");
         }
 }
