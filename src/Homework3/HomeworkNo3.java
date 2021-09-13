@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HomeworkNo3 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Scanner inputScanner = new Scanner(System.in);
         System.out.println("введите что-нибудь");
@@ -15,7 +15,7 @@ public class HomeworkNo3 {
 
         Scanner inputScann = new Scanner(System.in);
         System.out.println("введите что-нибудь");
-          int a = inputScann.nextInt();
+        int a = inputScann.nextInt();
         System.out.println("add " + a);
         int s = inputScann.nextInt();
         System.out.println("subtract " + s);
@@ -24,7 +24,7 @@ public class HomeworkNo3 {
         int d = inputScann.nextInt();
         System.out.println("divide " + d);
 
-       Scanner InputScan = new Scanner(System.in);
+        Scanner InputScan = new Scanner(System.in);
         System.out.println("number 1: ");
         int c = InputScan.nextInt();
 
@@ -32,37 +32,31 @@ public class HomeworkNo3 {
         int b = InputScan.nextInt();
 
         System.out.println("Enter operator (+,-,*,/)");
-       String operator = InputScan.next();
+        String operator = InputScan.next();
 
-       int result;
-       switch(operator){
-           case "+":
-           result = c + b;
-               System.out.println("Addition is : "+ result);
-           break;
-           case "-":
-           result = c - b;
-               System.out.println("Subtraction is : "+ result);
-           break;
-           case "*":
-           result = c * b;
-               System.out.println("Multiplication is : "+ result);
-           break;
-           case "/":
-           result = c / b;
-               System.out.println("Division is : "+ result);
-           break;
-           default:
-               System.out.println("incorrect data");
-
-
+        int result;
+        switch (operator) {
+            case "+":
+                result = c + b;
+                System.out.println("Addition is : " + result);
+                break;
+            case "-":
+                result = c - b;
+                System.out.println("Subtraction is : " + result);
+                break;
+            case "*":
+                result = c * b;
+                System.out.println("Multiplication is : " + result);
+                break;
+            case "/":
+                result = c / b;
+                System.out.println("Division is : " + result);
+                break;
+            default:
+                System.out.println("incorrect data");
 
 
-
-
-       }
-
-
+        }
 
     }
 }
