@@ -1,12 +1,11 @@
 package Homework3;
 
 public class HomeworkNo3_2 {
-    public static void main(String  args[]){
-        int floor = Integer.parseInt(args[0]);
+    public static void main(String   []args){
+        int floor = Integer.parseInt(args[1]);
 
         if (args.length > 0){
-            System.out.println("Select floor" + args[1]);
-        }
+
         switch (floor) {
 
             case 1:
@@ -34,6 +33,7 @@ public class HomeworkNo3_2 {
                 break;
             default:
                 System.out.println("Invalid floor");
+        }
         }
     }
 }
