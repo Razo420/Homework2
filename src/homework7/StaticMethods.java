@@ -2,8 +2,8 @@ package homework7;
 
 public class StaticMethods {
     public static void main(String[] args) {
-        int num1 = 15;
-        int num2 = 14;
+        int num1 = 7;
+        int num2 = 9;
         int result1 = sum(num1, num2);
         System.out.println("Task 1:\nThe sum of num1 and num2 = " + result1);
 
